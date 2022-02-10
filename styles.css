@@ -80,8 +80,31 @@ select {
 
 /* Site Styling Begins */
 
+*{
+    outline: 1px solid black;
+}
+
 :root {
     font-family: Shizuru;
+    font-size: 16px;
 }
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-flow: row wrap; */
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.splash {
+    background-image: url(img/splash.jpg);
+    background-size: 40vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+}
+
 
 
